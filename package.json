@@ -1,0 +1,24 @@
+{
+  "name": "simple_mean_one",
+  "version": "1.0.0",
+  "description": "First mean project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guipsamora/simple_mean_one.git"
+  },
+  "author": "Gui Samora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guipsamora/simple_mean_one/issues"
+  },
+  "homepage": "https://github.com/guipsamora/simple_mean_one#readme",
+  "dependencies": {
+    "app": "^0.1.0",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.8"
+  }
+}
