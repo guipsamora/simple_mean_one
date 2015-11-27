@@ -1,0 +1,19 @@
+
+Filtros não mudam o conteúdo, eles apenas mudam como o conteúdo é apresentado.
+
+Sempre você usa o | (pipe) e depois o tipo de filtro
+
+Filtros:
+- uppercase
+- lowercase
+- date - importante formatar a data ex:  | date ‘dd/MM/yyyy HH:MM’ - filter - filtra com base em um critério, por exemplo {‘nome’}
+- orderBy - filtra com base em um parâmetro, ex: ’nome’
+- currency
+- number
+- limitTo
+
+Você pode criar um ng-model: e usar ele como o critério de busca - tipo quando você começa a escrever algo e ai aparece o que você está buscando
+
+Você pode usar um ng-Click e a partir do seu click ele ordena de forma ascendente ou não
+
+Ou você pode até colocar o $filter direto no controller
